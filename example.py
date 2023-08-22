@@ -401,7 +401,7 @@ if __name__ == "__main__":
     launch_service()
 
     if results.level_1:
-        get_level_1_quotes_and_trades(ticker="SPY", seconds=30)
+        get_level_1_quotes_and_trades(ticker="@ES#", seconds=30)
     if results.regional_quotes:
         get_regional_quotes(ticker="SPY", seconds=120)
     if results.trade_updates:
